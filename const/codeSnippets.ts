@@ -1,6 +1,6 @@
 const codeSnippets = {
   nftCollection: `export default function NFTCollection() {
-  const {contract: nftCollection} = useContract("<your-contract-address-here>");
+  const {contract: nftCollection} = useContract("0xEd213c8A3C6808d3f6D25604EF30A59c32945bb9s");
   const { data: nfts } = useNFTs(nftCollection);
 
   return (
